@@ -1,9 +1,8 @@
-print("Enter a number: ")
 num= int(input())
 if num>0:
     if num%2==0:
-        print("EVEN")
+        print("Even")
     else:
-        print("ODD")
+        print("Odd")
 else:
-    print("INVALID")
+    print("Invalid")
